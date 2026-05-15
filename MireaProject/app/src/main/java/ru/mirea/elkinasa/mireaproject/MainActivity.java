@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
         // Инициализация инструмента Navigation
         appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home,
-                R.id.nav_webview)
+                R.id.nav_webview,
+                R.id.nav_worker)
                 .setOpenableLayout(drawerLayout)
                 .build();
 

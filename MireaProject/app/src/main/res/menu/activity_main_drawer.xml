@@ -11,4 +11,9 @@
         android:icon="@android:drawable/ic_menu_view"
         android:title="Котячий браузер" />
 
+    <item
+        android:id="@+id/nav_worker"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Фоновая задача (Wi-Fi)" />
+
 </menu>

@@ -17,4 +17,10 @@
         android:label="Котячий браузер"
         tools:layout="@layout/fragment_web_view" />
 
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="ru.mirea.elkinasa.mireaproject.WorkerFragment"
+        android:label="Фоновая задача"
+        tools:layout="@layout/fragment_worker" />
+
 </navigation>
