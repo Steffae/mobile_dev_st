@@ -2,6 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/nav_cat_profile"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Профиль котика" />
+
+    <item
+        android:id="@+id/nav_cat_notes"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Заметки о котиках" />
+
+    <item
         android:id="@+id/nav_home"
         android:icon="@android:drawable/ic_menu_info_details"
         android:title="Всё о котиках" />

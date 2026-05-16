@@ -6,6 +6,18 @@
     app:startDestination="@id/nav_home">
 
     <fragment
+        android:id="@+id/nav_cat_profile"
+        android:name="ru.mirea.elkinasa.mireaproject.ProfileFragment"
+        android:label="Профиль котика"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_cat_notes"
+        android:name="ru.mirea.elkinasa.mireaproject.CatNotesFragment"
+        android:label="Заметки о котиках"
+        tools:layout="@layout/fragment_cat_notes" />
+
+    <fragment
         android:id="@+id/nav_home"
         android:name="ru.mirea.elkinasa.mireaproject.DataFragment"
         android:label="Всё о котиках"

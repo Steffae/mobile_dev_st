@@ -37,7 +37,9 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_worker,
                 R.id.nav_sensor,
                 R.id.nav_camera_profile,
-                R.id.nav_audio)
+                R.id.nav_audio,
+                R.id.nav_cat_profile,
+                R.id.nav_cat_notes)
                 .setOpenableLayout(drawerLayout)
                 .build();
 
