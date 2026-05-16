@@ -34,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
         appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home,
                 R.id.nav_webview,
-                R.id.nav_worker)
+                R.id.nav_worker,
+                R.id.nav_sensor,
+                R.id.nav_camera_profile,
+                R.id.nav_audio)
                 .setOpenableLayout(drawerLayout)
                 .build();
 

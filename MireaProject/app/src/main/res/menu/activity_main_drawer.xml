@@ -16,4 +16,19 @@
         android:icon="@android:drawable/ic_menu_edit"
         android:title="Фоновая задача (Wi-Fi)" />
 
+    <item
+        android:id="@+id/nav_sensor"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Датчик освещённости" />
+
+    <item
+        android:id="@+id/nav_camera_profile"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Камера" />
+
+    <item
+        android:id="@+id/nav_audio"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Диктофон" />
+
 </menu>
