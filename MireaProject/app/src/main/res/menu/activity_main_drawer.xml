@@ -41,4 +41,19 @@
         android:icon="@android:drawable/ic_menu_save"
         android:title="Диктофон" />
 
+    <item
+        android:id="@+id/nav_cat_api"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Случайный котик" />
+
+    <item
+        android:id="@+id/nav_places"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Заведения" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Выход из аккаунта" />
+
 </menu>

@@ -1,5 +1,6 @@
 package ru.mirea.elkinasa.mireaproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +12,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,12 +41,28 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_camera_profile,
                 R.id.nav_audio,
                 R.id.nav_cat_profile,
-                R.id.nav_cat_notes)
+                R.id.nav_cat_notes,
+                R.id.nav_cat_api,
+                R.id.nav_places)
                 .setOpenableLayout(drawerLayout)
                 .build();
 
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        // Обработчик выхода из аккаунта
+        navigationView.setNavigationItemSelectedListener(item -> {
+            int id = item.getItemId();
+            if (id == R.id.nav_logout) {
+                FirebaseAuth.getInstance().signOut();
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                finish();
+                return true;
+            }
+            return NavigationUI.onNavDestinationSelected(item, navController);
+        });
     }
 
     @Override

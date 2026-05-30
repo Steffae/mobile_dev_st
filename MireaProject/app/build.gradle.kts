@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -41,6 +42,7 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation("androidx.work:work-runtime:2.8.1")
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
@@ -50,4 +52,8 @@ dependencies {
     implementation("androidx.navigation:navigation-ui:2.8.9")
     // Добавляем зависимость для DrawerLayout
     implementation("androidx.drawerlayout:drawerlayout:1.2.0")
+
+    implementation("com.squareup.picasso:picasso:2.8")
+
+    implementation("com.yandex.android:maps.mobile:4.3.1-full")
 }

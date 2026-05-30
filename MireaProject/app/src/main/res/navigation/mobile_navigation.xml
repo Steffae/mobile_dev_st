@@ -53,4 +53,16 @@
         android:label="Диктофон"
         tools:layout="@layout/fragment_audio" />
 
+    <fragment
+        android:id="@+id/nav_cat_api"
+        android:name="ru.mirea.elkinasa.mireaproject.CatApiFragment"
+        android:label="Случайный котик"
+        tools:layout="@layout/fragment_cat_api" />
+
+    <fragment
+        android:id="@+id/nav_places"
+        android:name="ru.mirea.elkinasa.mireaproject.PlacesFragment"
+        android:label="Заведения"
+        tools:layout="@layout/fragment_places" />
+
 </navigation>

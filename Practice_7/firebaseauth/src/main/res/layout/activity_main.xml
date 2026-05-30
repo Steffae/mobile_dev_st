@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Firebase Auth"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Статус и информация -->
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Signed Out"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="14sp" />
+
+    <!-- Поля для email/password -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/fieldEmail"
+            android:layout_width="198dp"
+            android:layout_height="61dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/fieldPassword"
+            android:layout_width="174dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="24dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <!-- Кнопки для верификации и выхода (скрыты, пока пользователь не войдёт) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonVerifyEmail"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Verify Email"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonSignOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Кнопки для входа и создания аккаунта -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="186dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="8dp"
+            android:text="Sign In" />
+
+        <Button
+            android:id="@+id/buttonCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginBottom="16dp"
+            android:text="Create Account" />
+    </LinearLayout>
+
+</LinearLayout>
