@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:text="🐱 Профиль котика 🐱"
+        android:textColor="@color/pink_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextCatName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя котика"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCatBreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Порода"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCatAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Возраст (лет)"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCatColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Окрас"
+        android:inputType="text"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/buttonSaveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить профиль котика"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewSavedProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранённый профиль: "
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:background="@android:drawable/editbox_background"/>
+
+</LinearLayout>

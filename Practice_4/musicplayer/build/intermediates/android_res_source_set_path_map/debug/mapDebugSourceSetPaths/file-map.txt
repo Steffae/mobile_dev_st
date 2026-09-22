@@ -1,0 +1,7 @@
+ru.mirea.elkinasa.musicplayer-pngs-0 D:\Desktop\mobile_dev_st\Practice_4\musicplayer\build\generated\res\pngs\debug
+ru.mirea.elkinasa.musicplayer-updated_navigation_xml-1 D:\Desktop\mobile_dev_st\Practice_4\musicplayer\build\generated\updated_navigation_xml\debug
+ru.mirea.elkinasa.musicplayer-packageDebugResources-2 D:\Desktop\mobile_dev_st\Practice_4\musicplayer\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.elkinasa.musicplayer-packageDebugResources-3 D:\Desktop\mobile_dev_st\Practice_4\musicplayer\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.elkinasa.musicplayer-debug-4 D:\Desktop\mobile_dev_st\Practice_4\musicplayer\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.elkinasa.musicplayer-debug-5 D:\Desktop\mobile_dev_st\Practice_4\musicplayer\src\debug\res
+ru.mirea.elkinasa.musicplayer-main-6 D:\Desktop\mobile_dev_st\Practice_4\musicplayer\src\main\res

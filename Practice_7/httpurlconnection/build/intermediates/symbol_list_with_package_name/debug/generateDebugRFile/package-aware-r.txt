@@ -1,0 +1,20 @@
+ru.mirea.elkinasa.httpurlconnection
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonGetInfo
+id textViewCity
+id textViewCountry
+id textViewIP
+id textViewRegion
+id textViewStatus
+id textViewTemp
+id textViewWeather
+id textViewWind
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_Lesson7
+style Theme_Lesson7

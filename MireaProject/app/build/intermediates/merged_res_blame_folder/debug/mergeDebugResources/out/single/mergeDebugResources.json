@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "ru.mirea.elkinasa.mireaproject.app-debug-62:/layout_dialog_place_info.xml.flat",
+        "source": "ru.mirea.elkinasa.mireaproject.app-main-64:/layout/dialog_place_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_fragment_cat_notes.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\fragment_cat_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_fragment_worker.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\fragment_worker.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\drawable_cat.jpg.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\drawable\\cat.jpg"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_activity_map.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_fragment_sensor.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\fragment_sensor.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_fragment_data.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\fragment_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_fragment_camera.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\fragment_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_fragment_cat_api.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\fragment_cat_api.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_fragment_web_view.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\fragment_web_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\drawable_edit_text_background.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\drawable\\edit_text_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_fragment_audio.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\fragment_audio.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\xml_paths.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\xml\\paths.xml"
+    },
+    {
+        "merged": "ru.mirea.elkinasa.mireaproject.app-debug-62:/raw_catscreen.png.flat",
+        "source": "ru.mirea.elkinasa.mireaproject.app-main-64:/raw/catscreen.png"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_fragment_places.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\fragment_places.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-debug-62:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.mireaproject.app-main-64:\\layout\\activity_login.xml"
+    }
+]

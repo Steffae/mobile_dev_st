@@ -1,0 +1,8 @@
+ru.mirea.elkinasa.firebaseauth-pngs-0 D:\Desktop\mobile_dev_st\Practice_7\firebaseauth\build\generated\res\pngs\debug
+ru.mirea.elkinasa.firebaseauth-res-1 D:\Desktop\mobile_dev_st\Practice_7\firebaseauth\build\generated\res\processDebugGoogleServices
+ru.mirea.elkinasa.firebaseauth-updated_navigation_xml-2 D:\Desktop\mobile_dev_st\Practice_7\firebaseauth\build\generated\updated_navigation_xml\debug
+ru.mirea.elkinasa.firebaseauth-packageDebugResources-3 D:\Desktop\mobile_dev_st\Practice_7\firebaseauth\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.elkinasa.firebaseauth-packageDebugResources-4 D:\Desktop\mobile_dev_st\Practice_7\firebaseauth\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.elkinasa.firebaseauth-debug-5 D:\Desktop\mobile_dev_st\Practice_7\firebaseauth\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.elkinasa.firebaseauth-debug-6 D:\Desktop\mobile_dev_st\Practice_7\firebaseauth\src\debug\res
+ru.mirea.elkinasa.firebaseauth-main-7 D:\Desktop\mobile_dev_st\Practice_7\firebaseauth\src\main\res

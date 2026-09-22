@@ -1,0 +1,7 @@
+ru.mirea.elkinasa.favoritebook-pngs-0 D:\Desktop\mobile_dev_st\Practice_3\favoritebook\build\generated\res\pngs\debug
+ru.mirea.elkinasa.favoritebook-updated_navigation_xml-1 D:\Desktop\mobile_dev_st\Practice_3\favoritebook\build\generated\updated_navigation_xml\debug
+ru.mirea.elkinasa.favoritebook-packageDebugResources-2 D:\Desktop\mobile_dev_st\Practice_3\favoritebook\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.elkinasa.favoritebook-packageDebugResources-3 D:\Desktop\mobile_dev_st\Practice_3\favoritebook\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.elkinasa.favoritebook-debug-4 D:\Desktop\mobile_dev_st\Practice_3\favoritebook\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.elkinasa.favoritebook-debug-5 D:\Desktop\mobile_dev_st\Practice_3\favoritebook\src\debug\res
+ru.mirea.elkinasa.favoritebook-main-6 D:\Desktop\mobile_dev_st\Practice_3\favoritebook\src\main\res

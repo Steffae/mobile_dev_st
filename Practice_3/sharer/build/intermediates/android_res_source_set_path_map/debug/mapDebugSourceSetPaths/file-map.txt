@@ -1,0 +1,7 @@
+ru.mirea.elkinasa.sharer-pngs-0 D:\Desktop\mobile_dev_st\Practice_3\sharer\build\generated\res\pngs\debug
+ru.mirea.elkinasa.sharer-updated_navigation_xml-1 D:\Desktop\mobile_dev_st\Practice_3\sharer\build\generated\updated_navigation_xml\debug
+ru.mirea.elkinasa.sharer-packageDebugResources-2 D:\Desktop\mobile_dev_st\Practice_3\sharer\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.elkinasa.sharer-packageDebugResources-3 D:\Desktop\mobile_dev_st\Practice_3\sharer\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.elkinasa.sharer-debug-4 D:\Desktop\mobile_dev_st\Practice_3\sharer\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.elkinasa.sharer-debug-5 D:\Desktop\mobile_dev_st\Practice_3\sharer\src\debug\res
+ru.mirea.elkinasa.sharer-main-6 D:\Desktop\mobile_dev_st\Practice_3\sharer\src\main\res

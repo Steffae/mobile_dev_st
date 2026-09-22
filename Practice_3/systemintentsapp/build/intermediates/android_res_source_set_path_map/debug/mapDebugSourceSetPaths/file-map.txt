@@ -1,0 +1,7 @@
+ru.mirea.elkinasa.systemintentsapp-pngs-0 D:\Desktop\mobile_dev_st\Practice_3\systemintentsapp\build\generated\res\pngs\debug
+ru.mirea.elkinasa.systemintentsapp-updated_navigation_xml-1 D:\Desktop\mobile_dev_st\Practice_3\systemintentsapp\build\generated\updated_navigation_xml\debug
+ru.mirea.elkinasa.systemintentsapp-packageDebugResources-2 D:\Desktop\mobile_dev_st\Practice_3\systemintentsapp\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.elkinasa.systemintentsapp-packageDebugResources-3 D:\Desktop\mobile_dev_st\Practice_3\systemintentsapp\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.elkinasa.systemintentsapp-debug-4 D:\Desktop\mobile_dev_st\Practice_3\systemintentsapp\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.elkinasa.systemintentsapp-debug-5 D:\Desktop\mobile_dev_st\Practice_3\systemintentsapp\src\debug\res
+ru.mirea.elkinasa.systemintentsapp-main-6 D:\Desktop\mobile_dev_st\Practice_3\systemintentsapp\src\main\res

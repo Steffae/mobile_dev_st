@@ -1,0 +1,7 @@
+ru.mirea.elkinasa.notebook-pngs-0 D:\Desktop\mobile_dev_st\Practice_6\notebook\build\generated\res\pngs\debug
+ru.mirea.elkinasa.notebook-updated_navigation_xml-1 D:\Desktop\mobile_dev_st\Practice_6\notebook\build\generated\updated_navigation_xml\debug
+ru.mirea.elkinasa.notebook-packageDebugResources-2 D:\Desktop\mobile_dev_st\Practice_6\notebook\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.elkinasa.notebook-packageDebugResources-3 D:\Desktop\mobile_dev_st\Practice_6\notebook\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.elkinasa.notebook-debug-4 D:\Desktop\mobile_dev_st\Practice_6\notebook\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.elkinasa.notebook-debug-5 D:\Desktop\mobile_dev_st\Practice_6\notebook\src\debug\res
+ru.mirea.elkinasa.notebook-main-6 D:\Desktop\mobile_dev_st\Practice_6\notebook\src\main\res

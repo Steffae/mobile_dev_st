@@ -1,0 +1,8 @@
+ru.mirea.elkinasa.mireaproject.app-pngs-0 D:\Desktop\mobile_dev_st\MireaProject\app\build\generated\res\pngs\debug
+ru.mirea.elkinasa.mireaproject.app-res-1 D:\Desktop\mobile_dev_st\MireaProject\app\build\generated\res\processDebugGoogleServices
+ru.mirea.elkinasa.mireaproject.app-updated_navigation_xml-2 D:\Desktop\mobile_dev_st\MireaProject\app\build\generated\updated_navigation_xml\debug
+ru.mirea.elkinasa.mireaproject.app-packageDebugResources-3 D:\Desktop\mobile_dev_st\MireaProject\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.elkinasa.mireaproject.app-packageDebugResources-4 D:\Desktop\mobile_dev_st\MireaProject\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.elkinasa.mireaproject.app-debug-5 D:\Desktop\mobile_dev_st\MireaProject\app\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.elkinasa.mireaproject.app-debug-6 D:\Desktop\mobile_dev_st\MireaProject\app\src\debug\res
+ru.mirea.elkinasa.mireaproject.app-main-7 D:\Desktop\mobile_dev_st\MireaProject\app\src\main\res

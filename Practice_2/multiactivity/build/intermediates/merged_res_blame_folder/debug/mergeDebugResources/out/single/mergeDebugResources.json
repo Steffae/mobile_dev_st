@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\layout_content_second.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\layout\\content_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\layout_activity_second.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "ru.mirea.elkinasa.multiactivity-debug-47:/layout_activity_second.xml.flat",
+        "source": "ru.mirea.elkinasa.multiactivity-main-49:/layout/activity_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-debug-47:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\mipmap-anydpi\\ic_launcher.xml"
+    }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="album_pic">album pic</string>
+    <string name="app_name">ServiceApp</string>
+    <string name="music_player">Music Player</string>
+    <string name="namesong">На круглой планете - Смешарики</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <style name="Base.Theme.Lesson4" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Lesson4" parent="Base.Theme.Lesson4"/>
+</resources>

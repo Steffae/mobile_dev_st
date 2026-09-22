@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">438057742172</string>
+    <string name="google_api_key" translatable="false">AIzaSyAAwaTjf9rlcKWx1HQC5Z_N0J1EEnokFzw</string>
+    <string name="google_app_id" translatable="false">1:438057742172:android:217a6cb303b0c9c68cdb99</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAAwaTjf9rlcKWx1HQC5Z_N0J1EEnokFzw</string>
+    <string name="google_storage_bucket" translatable="false">mireaproject-a6850.firebasestorage.app</string>
+    <string name="project_id" translatable="false">mireaproject-a6850</string>
+</resources>

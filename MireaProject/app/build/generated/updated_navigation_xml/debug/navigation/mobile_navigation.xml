@@ -1,0 +1,57 @@
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/mobile_navigation"
+app:startDestination="@id/nav_home" >
+<fragment
+    android:id="@+id/nav_cat_profile"
+    android:name="ru.mirea.elkinasa.mireaproject.ProfileFragment"
+    android:label="Профиль котика"
+    tools:layout="@layout/fragment_profile" />
+<fragment
+    android:id="@+id/nav_cat_notes"
+    android:name="ru.mirea.elkinasa.mireaproject.CatNotesFragment"
+    android:label="Заметки о котиках"
+    tools:layout="@layout/fragment_cat_notes" />
+<fragment
+    android:id="@+id/nav_home"
+    android:name="ru.mirea.elkinasa.mireaproject.DataFragment"
+    android:label="Всё о котиках"
+    tools:layout="@layout/fragment_data" />
+<fragment
+    android:id="@+id/nav_webview"
+    android:name="ru.mirea.elkinasa.mireaproject.WebViewFragment"
+    android:label="Котячий браузер"
+    tools:layout="@layout/fragment_web_view" />
+<fragment
+    android:id="@+id/nav_worker"
+    android:name="ru.mirea.elkinasa.mireaproject.WorkerFragment"
+    android:label="Фоновая задача"
+    tools:layout="@layout/fragment_worker" />
+<fragment
+    android:id="@+id/nav_sensor"
+    android:name="ru.mirea.elkinasa.mireaproject.SensorFragment"
+    android:label="Датчик освещённости"
+    tools:layout="@layout/fragment_sensor" />
+<fragment
+    android:id="@+id/nav_camera_profile"
+    android:name="ru.mirea.elkinasa.mireaproject.CameraFragment"
+    android:label="Фото профиля"
+    tools:layout="@layout/fragment_camera" />
+<fragment
+    android:id="@+id/nav_audio"
+    android:name="ru.mirea.elkinasa.mireaproject.AudioFragment"
+    android:label="Диктофон"
+    tools:layout="@layout/fragment_audio" />
+<fragment
+    android:id="@+id/nav_cat_api"
+    android:name="ru.mirea.elkinasa.mireaproject.CatApiFragment"
+    android:label="Случайный котик"
+    tools:layout="@layout/fragment_cat_api" />
+<fragment
+    android:id="@+id/nav_places"
+    android:name="ru.mirea.elkinasa.mireaproject.PlacesFragment"
+    android:label="Заведения"
+    tools:layout="@layout/fragment_places" />
+</navigation>

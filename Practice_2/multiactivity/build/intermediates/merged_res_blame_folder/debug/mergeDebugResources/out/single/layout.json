@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-mergeDebugResources-46:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "ru.mirea.elkinasa.multiactivity-mergeDebugResources-46:/layout/activity_second.xml",
+        "source": "ru.mirea.elkinasa.multiactivity-main-49:/layout/activity_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-mergeDebugResources-46:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-mergeDebugResources-46:\\layout\\activity_second.xml",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-mergeDebugResources-46:\\layout\\content_second.xml",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.multiactivity-main-49:\\layout\\content_second.xml"
+    }
+]

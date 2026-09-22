@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable smile_cat
+id buttonPlay
+id buttonStop
+id imageViewAlbum
+id textViewSong
+id textViewTitle
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw music
+string album_pic
+string app_name
+string music_player
+string namesong
+string play
+string stop
+style Base.Theme.Lesson4
+style Theme.Lesson4

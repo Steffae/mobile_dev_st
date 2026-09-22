@@ -1,0 +1,14 @@
+ru.mirea.elkinasa.systemintentsapp
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnBrowser
+id btnCall
+id btnMaps
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_Practice_3
+style Theme_Practice_3

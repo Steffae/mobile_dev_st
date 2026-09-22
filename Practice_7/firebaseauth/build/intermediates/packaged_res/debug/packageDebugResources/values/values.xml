@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <item name="buttonCreateAccount" type="id"/>
+    <item name="buttonSignIn" type="id"/>
+    <item name="buttonSignOut" type="id"/>
+    <item name="buttonVerifyEmail" type="id"/>
+    <item name="detailTextView" type="id"/>
+    <item name="fieldEmail" type="id"/>
+    <item name="fieldPassword" type="id"/>
+    <item name="statusTextView" type="id"/>
+    <string name="app_name">FirebaseAuth</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="gcm_defaultSenderId" translatable="false">40644229285</string>
+    <string name="google_api_key" translatable="false">AIzaSyA68uA0cfadtdTnwkAKQVz1YPjt2FAsQdA</string>
+    <string name="google_app_id" translatable="false">1:40644229285:android:b1acccfda319203bad754c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA68uA0cfadtdTnwkAKQVz1YPjt2FAsQdA</string>
+    <string name="google_storage_bucket" translatable="false">lesson7-81646.firebasestorage.app</string>
+    <string name="project_id" translatable="false">lesson7-81646</string>
+    <string name="signed_out">Signed Out</string>
+    <style name="Base.Theme.Lesson7" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Lesson7" parent="Base.Theme.Lesson7"/>
+</resources>

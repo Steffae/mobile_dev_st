@@ -1,0 +1,7 @@
+ru.mirea.elkinasa.buttonclicker-pngs-0 D:\Desktop\mobile_dev_st\Practice_1\buttonclicker\build\generated\res\pngs\debug
+ru.mirea.elkinasa.buttonclicker-updated_navigation_xml-1 D:\Desktop\mobile_dev_st\Practice_1\buttonclicker\build\generated\updated_navigation_xml\debug
+ru.mirea.elkinasa.buttonclicker-packageDebugResources-2 D:\Desktop\mobile_dev_st\Practice_1\buttonclicker\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.elkinasa.buttonclicker-packageDebugResources-3 D:\Desktop\mobile_dev_st\Practice_1\buttonclicker\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.elkinasa.buttonclicker-debug-4 D:\Desktop\mobile_dev_st\Practice_1\buttonclicker\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.elkinasa.buttonclicker-debug-5 D:\Desktop\mobile_dev_st\Practice_1\buttonclicker\src\debug\res
+ru.mirea.elkinasa.buttonclicker-main-6 D:\Desktop\mobile_dev_st\Practice_1\buttonclicker\src\main\res

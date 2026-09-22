@@ -1,0 +1,17 @@
+ru.mirea.elkinasa.internalfilestorage
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonLoad
+id buttonSave
+id editTextEventDescription
+id editTextEventName
+id textViewStatus
+id textViewTitle
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_Lesson6
+style Theme_Lesson6
