@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ServiceApp</string>
+    <string name="album_pic">album pic</string>
+    <string name="music_player">Music Player</string>
+    <string name="namesong">На круглой планете - Смешарики</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+</resources>
