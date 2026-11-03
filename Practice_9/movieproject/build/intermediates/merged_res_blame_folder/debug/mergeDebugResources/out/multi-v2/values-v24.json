@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "ru.mirea.elkinasa.movieproject-mergeDebugResources-34:/values-v24/values-v24.xml",
+            "outputFile": "ru.mirea.elkinasa.movieproject-mergeDebugResources-35:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\123\\.gradle\\caches\\9.3.1\\transforms\\fbcd35bfbcbd8cbe101ee6d68a2b559c\\workspace\\transformed\\appcompat-1.7.1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\123\\.gradle\\caches\\9.3.1\\transforms\\a915fbe59663ff521bfcb5c5085b56d7\\workspace\\transformed\\appcompat-1.7.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\123\\.gradle\\caches\\9.3.1\\transforms\\c4f2d5a0f1b9e0f303f849f12c9d9779\\workspace\\transformed\\material-1.14.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\123\\.gradle\\caches\\9.3.1\\transforms\\571a11b854b83f799057b0eaf9395195\\workspace\\transformed\\material-1.14.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,12,18,24,30,33,36,39,42",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",

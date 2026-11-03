@@ -3,6 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">CatBreeds</string>
+    <string name="gcm_defaultSenderId" translatable="false">266177395567</string>
+    <string name="google_api_key" translatable="false">AIzaSyA-OPhvWvfFmXE_80LqIjSazjyE8V-TfzQ</string>
+    <string name="google_app_id" translatable="false">1:266177395567:android:17cf3fb22637a578d8869a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA-OPhvWvfFmXE_80LqIjSazjyE8V-TfzQ</string>
+    <string name="google_storage_bucket" translatable="false">catbreeds-f721c.firebasestorage.app</string>
+    <string name="project_id" translatable="false">catbreeds-f721c</string>
     <style name="Base.Theme.CatBreeds" parent="Theme.Material3.DayNight.NoActionBar">
         
         
