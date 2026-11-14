@@ -162,6 +162,11 @@
             android:directBootAware="true"
             android:exported="false" />
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="ru.mirea.elkinasa.catbreeds.com.squareup.picasso"
+            android:exported="false" />
+
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
             android:directBootAware="false"

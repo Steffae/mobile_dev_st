@@ -3,49 +3,79 @@ package ru.mirea.elkinasa.data.repository;
 import java.util.ArrayList;
 import java.util.List;
 
-import ru.mirea.elkinasa.data.storage.network.CatBreedDto;
+import ru.mirea.elkinasa.data.storage.network.CatApiResponse;
 import ru.mirea.elkinasa.data.storage.network.NetworkApi;
 import ru.mirea.elkinasa.domain.models.CatBreed;
 import ru.mirea.elkinasa.domain.repository.CatRepository;
 
 public class CatRepositoryImpl implements CatRepository {
-
     private final NetworkApi networkApi = new NetworkApi();
 
     @Override
-    public List<CatBreed> getAllBreeds() {
-        return mapList(networkApi.getMockBreeds());
-    }
-
-    @Override
-    public CatBreed getBreedById(String id) {
-        for (CatBreedDto dto : networkApi.getMockBreeds()) {
-            if (dto.id.equals(id)) return mapToDomain(dto);
-        }
-        return null;
-    }
-
-    @Override
-    public List<CatBreed> searchBreeds(String query) {
-        List<CatBreed> result = new ArrayList<>();
-        for (CatBreedDto dto : networkApi.getMockBreeds()) {
-            if (dto.name.toLowerCase().contains(query.toLowerCase())) {
-                result.add(mapToDomain(dto));
+    public void getAllBreeds(Callback callback) {
+        networkApi.loadBreeds(new NetworkApi.OnBreedsLoadedListener() {
+            @Override
+            public void onSuccess(List<CatApiResponse> breeds) {
+                List<CatBreed> result = new ArrayList<>();
+                for (CatApiResponse dto : breeds) {
+                    result.add(mapToDomain(dto));
+                }
+                callback.onSuccess(result);
             }
-        }
-        return result;
+
+            @Override
+            public void onFailure(Throwable t) {
+                callback.onError(t.getMessage());
+            }
+        });
     }
 
-    // ===== Маппинг =====
+    @Override
+    public void getBreedById(String id, Callback callback) {
+        networkApi.loadBreeds(new NetworkApi.OnBreedsLoadedListener() {
+            @Override
+            public void onSuccess(List<CatApiResponse> breeds) {
+                List<CatBreed> result = new ArrayList<>();
+                for (CatApiResponse dto : breeds) {
+                    if (dto.getId().equals(id)) {
+                        result.add(mapToDomain(dto));
+                        break;
+                    }
+                }
+                callback.onSuccess(result);
+            }
 
-    private List<CatBreed> mapList(List<CatBreedDto> dtos) {
-        List<CatBreed> result = new ArrayList<>();
-        for (CatBreedDto dto : dtos) result.add(mapToDomain(dto));
-        return result;
+            @Override
+            public void onFailure(Throwable t) {
+                callback.onError(t.getMessage());
+            }
+        });
     }
 
-    private CatBreed mapToDomain(CatBreedDto dto) {
-        return new CatBreed(dto.id, dto.name, dto.description,
-                dto.origin, dto.imageUrl);
+    @Override
+    public void searchBreeds(String query, Callback callback) {
+        networkApi.loadBreeds(new NetworkApi.OnBreedsLoadedListener() {
+            @Override
+            public void onSuccess(List<CatApiResponse> breeds) {
+                List<CatBreed> result = new ArrayList<>();
+                for (CatApiResponse dto : breeds) {
+                    // Фильтруем по названию (без учета регистра)
+                    if (dto.getName().toLowerCase().contains(query.toLowerCase())) {
+                        result.add(mapToDomain(dto));
+                    }
+                }
+                callback.onSuccess(result);
+            }
+
+            @Override
+            public void onFailure(Throwable t) {
+                callback.onError(t.getMessage());
+            }
+        });
+    }
+
+    private CatBreed mapToDomain(CatApiResponse dto) {
+        return new CatBreed(dto.getId(), dto.getName(), dto.getDescription(),
+                dto.getOrigin(), dto.getImageUrl());
     }
 }

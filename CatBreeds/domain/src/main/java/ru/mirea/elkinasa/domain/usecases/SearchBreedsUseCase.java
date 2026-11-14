@@ -1,7 +1,5 @@
 package ru.mirea.elkinasa.domain.usecases;
 
-import java.util.List;
-import ru.mirea.elkinasa.domain.models.CatBreed;
 import ru.mirea.elkinasa.domain.repository.CatRepository;
 
 public class SearchBreedsUseCase {
@@ -11,7 +9,7 @@ public class SearchBreedsUseCase {
         this.repository = repository;
     }
 
-    public List<CatBreed> execute(String query) {
-        return repository.searchBreeds(query);
+    public void execute(String query, CatRepository.Callback callback) {
+        repository.searchBreeds(query, callback);
     }
 }

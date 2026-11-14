@@ -8,6 +8,7 @@ id buttonSignIn
 id buttonSignOut
 id editTextEmail
 id editTextPassword
+id imageViewBreed
 id imageViewFavorite
 id main
 id recyclerView

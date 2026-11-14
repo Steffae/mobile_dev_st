@@ -5,10 +5,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 import java.util.List;
+
 import ru.mirea.elkinasa.catbreeds.R;
 import ru.mirea.elkinasa.domain.models.BreedItem;
 
@@ -52,24 +57,41 @@ public class BreedsAdapter extends RecyclerView.Adapter<BreedsAdapter.BreedViewH
     static class BreedViewHolder extends RecyclerView.ViewHolder {
         private final TextView textName;
         private final ImageView imageFav;
+        private final ImageView imageBreed; // Для картинки породы
 
         public BreedViewHolder(@NonNull View itemView) {
             super(itemView);
             textName = itemView.findViewById(R.id.textViewBreedName);
             imageFav = itemView.findViewById(R.id.imageViewFavorite);
+            imageBreed = itemView.findViewById(R.id.imageViewBreed);
         }
 
         public void bind(BreedItem item, OnFavoriteClickListener listener) {
             textName.setText(item.getBreed().getName());
 
-            // Закрашенная звездочка, если в избранном
+            // Безопасная загрузка картинки
+            String imageUrl = item.getBreed().getImageUrl();
+
+            if (imageUrl != null && !imageUrl.isEmpty()) {
+                Picasso.get()
+                        .load(imageUrl)
+                        .resize(400, 400)
+                        .centerCrop()
+                        .placeholder(android.R.drawable.ic_menu_gallery)
+                        .error(android.R.drawable.ic_menu_close_clear_cancel)
+                        .into(imageBreed);
+            } else {
+                // Если картинки нет — ставим заглушку, чтобы Picasso не падал
+                imageBreed.setImageResource(android.R.drawable.ic_menu_gallery);
+            }
+
+            // Закрашенная звездочка
             if (item.isFavorite()) {
                 imageFav.setImageResource(android.R.drawable.btn_star_big_on);
             } else {
                 imageFav.setImageResource(android.R.drawable.btn_star_big_off);
             }
 
-            // Обработка нажатия на звездочку
             imageFav.setOnClickListener(v -> {
                 if (listener != null) listener.onFavoriteClick(item);
             });

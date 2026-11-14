@@ -49,4 +49,5 @@ dependencies {
     implementation(project(":data"))
 
     implementation("androidx.recyclerview:recyclerview:1.4.0")
+    implementation("com.squareup.picasso:picasso:2.8")
 }

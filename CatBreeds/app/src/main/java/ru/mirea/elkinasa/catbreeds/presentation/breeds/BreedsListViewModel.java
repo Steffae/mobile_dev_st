@@ -1,7 +1,6 @@
 package ru.mirea.elkinasa.catbreeds.presentation.breeds;
 
 import android.util.Log;
-
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MediatorLiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -20,30 +19,37 @@ import ru.mirea.elkinasa.domain.usecases.AddToFavoritesUseCase;
 import ru.mirea.elkinasa.domain.usecases.RemoveFromFavoritesUseCase;
 
 public class BreedsListViewModel extends ViewModel {
-
     private static final String TAG = "BreedsListViewModel";
 
     private final CatRepository catRepository;
     private final FavoriteRepository favoriteRepository;
 
-    // LiveData создаём тут
     private final MutableLiveData<List<CatBreed>> breedsLive = new MutableLiveData<>();
     private final MutableLiveData<List<String>> favoritesLive = new MutableLiveData<>();
-
-    // MediatorLiveData
     private final MediatorLiveData<List<BreedItem>> result = new MediatorLiveData<>();
 
-    public BreedsListViewModel(CatRepository catRepository,
-                               FavoriteRepository favoriteRepository) {
+    public BreedsListViewModel(CatRepository catRepository, FavoriteRepository favoriteRepository) {
         this.catRepository = catRepository;
         this.favoriteRepository = favoriteRepository;
         Log.d(TAG, "BreedsListViewModel created");
 
-        // Загружаем начальные значения
-        breedsLive.setValue(catRepository.getAllBreeds());
+        // Загружаем избранное локально (Room)
         favoritesLive.setValue(favoriteRepository.getFavoriteIds());
 
-        // Слушаем оба источника
+        // Загружаем породы из сети (Retrofit)
+        catRepository.getAllBreeds(new CatRepository.Callback() {
+            @Override
+            public void onSuccess(List<CatBreed> breeds) {
+                Log.d(TAG, "Успешно загружено пород: " + breeds.size());
+                breedsLive.postValue(breeds);
+            }
+
+            @Override
+            public void onError(String message) {
+                Log.e(TAG, "Ошибка сети: " + message);
+            }
+        });
+
         result.addSource(breedsLive, breeds -> rebuild());
         result.addSource(favoritesLive, ids -> rebuild());
     }
@@ -77,13 +83,6 @@ public class BreedsListViewModel extends ViewModel {
             new AddToFavoritesUseCase(favoriteRepository).execute(breed.getId());
             favSet.add(breed.getId());
         }
-
         favoritesLive.setValue(new ArrayList<>(favSet));
-    }
-
-    @Override
-    protected void onCleared() {
-        super.onCleared();
-        Log.d(TAG, "BreedsListViewModel cleared");
     }
 }

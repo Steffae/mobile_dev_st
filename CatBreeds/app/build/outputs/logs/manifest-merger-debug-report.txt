@@ -59,11 +59,13 @@ MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\123\.gradle\caches
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\123\.gradle\caches\9.3.1\transforms\7c236247657397084e566824cd26d065\workspace\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\123\.gradle\caches\9.3.1\transforms\6ab11f37d7c9084f88760404c969cce6\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\123\.gradle\caches\9.3.1\transforms\086e262f29e16542392c3a459e6cf3ce\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\123\.gradle\caches\9.3.1\transforms\7c127d3ac036bbfb3a5ce4ab163b6229\workspace\transformed\picasso-2.8\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\7817d2019082cb9bae3a2e1594f809e1\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\97a2eb02ea6f0492755246da202067d6\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\123\.gradle\caches\9.3.1\transforms\441a962471fe826ba8c31ee042293ce3\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\3e8e87be21ec7327ba5a68696ba6a2f3\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\3452e9ca3c101fdf4e105619866282a0\workspace\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\52ae3ff1c27118622e746f75537625a7\workspace\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\123\.gradle\caches\9.3.1\transforms\413f73b6203e384cb2801d68f334cb6c\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\f3674413f4ab6c2b3f377d44e2de892b\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\123\.gradle\caches\9.3.1\transforms\837ec638eeed782ae042678f3768ed80\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
@@ -119,6 +121,8 @@ MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\123\.gradle\caches\9.3.1
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\123\.gradle\caches\9.3.1\transforms\4626cda3133e4398f3cab592dddc68e7\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\123\.gradle\caches\9.3.1\transforms\6ab11f37d7c9084f88760404c969cce6\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\123\.gradle\caches\9.3.1\transforms\6ab11f37d7c9084f88760404c969cce6\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\123\.gradle\caches\9.3.1\transforms\7c127d3ac036bbfb3a5ce4ab163b6229\workspace\transformed\picasso-2.8\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\123\.gradle\caches\9.3.1\transforms\7c127d3ac036bbfb3a5ce4ab163b6229\workspace\transformed\picasso-2.8\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\123\.gradle\caches\9.3.1\transforms\441a962471fe826ba8c31ee042293ce3\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\123\.gradle\caches\9.3.1\transforms\441a962471fe826ba8c31ee042293ce3\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\123\.gradle\caches\9.3.1\transforms\837ec638eeed782ae042678f3768ed80\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
@@ -287,6 +291,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\123\.gradle\caches\9.3.1\transforms\6ab11f37d7c9084f88760404c969cce6\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\123\.gradle\caches\9.3.1\transforms\086e262f29e16542392c3a459e6cf3ce\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\123\.gradle\caches\9.3.1\transforms\086e262f29e16542392c3a459e6cf3ce\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\123\.gradle\caches\9.3.1\transforms\7c127d3ac036bbfb3a5ce4ab163b6229\workspace\transformed\picasso-2.8\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\123\.gradle\caches\9.3.1\transforms\7c127d3ac036bbfb3a5ce4ab163b6229\workspace\transformed\picasso-2.8\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\7817d2019082cb9bae3a2e1594f809e1\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\7817d2019082cb9bae3a2e1594f809e1\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\97a2eb02ea6f0492755246da202067d6\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
@@ -297,6 +303,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\3e8e87be21ec7327ba5a68696ba6a2f3\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\3452e9ca3c101fdf4e105619866282a0\workspace\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\3452e9ca3c101fdf4e105619866282a0\workspace\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\52ae3ff1c27118622e746f75537625a7\workspace\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\52ae3ff1c27118622e746f75537625a7\workspace\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\123\.gradle\caches\9.3.1\transforms\413f73b6203e384cb2801d68f334cb6c\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\123\.gradle\caches\9.3.1\transforms\413f73b6203e384cb2801d68f334cb6c\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\f3674413f4ab6c2b3f377d44e2de892b\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
@@ -537,6 +545,14 @@ ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\123\.gradle\caches\9.3.1\
 		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\123\.gradle\caches\9.3.1\transforms\4626cda3133e4398f3cab592dddc68e7\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
 	android:name
 		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\123\.gradle\caches\9.3.1\transforms\4626cda3133e4398f3cab592dddc68e7\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\123\.gradle\caches\9.3.1\transforms\7c127d3ac036bbfb3a5ce4ab163b6229\workspace\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\123\.gradle\caches\9.3.1\transforms\7c127d3ac036bbfb3a5ce4ab163b6229\workspace\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\123\.gradle\caches\9.3.1\transforms\7c127d3ac036bbfb3a5ce4ab163b6229\workspace\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\123\.gradle\caches\9.3.1\transforms\7c127d3ac036bbfb3a5ce4ab163b6229\workspace\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\123\.gradle\caches\9.3.1\transforms\441a962471fe826ba8c31ee042293ce3\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
 	android:value

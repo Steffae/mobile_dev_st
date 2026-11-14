@@ -7,6 +7,7 @@ int id buttonSignIn 0x0
 int id buttonSignOut 0x0
 int id editTextEmail 0x0
 int id editTextPassword 0x0
+int id imageViewBreed 0x0
 int id imageViewFavorite 0x0
 int id main 0x0
 int id recyclerView 0x0
