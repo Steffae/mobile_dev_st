@@ -9,14 +9,18 @@ public class FavoriteEntity {
 
     @PrimaryKey
     @NonNull
-    public String breedId;
+    public String id; // Уникальный ключ: userId + "_" + breedId
 
+    public String userId; // Кому принадлежит избранное
+    public String breedId;
     public String breedName;
     public String imageUrl;
     public long dateAdded;
 
-    public FavoriteEntity(@NonNull String breedId, String breedName,
-                          String imageUrl, long dateAdded) {
+    public FavoriteEntity(@NonNull String id, String userId, String breedId,
+                          String breedName, String imageUrl, long dateAdded) {
+        this.id = id;
+        this.userId = userId;
         this.breedId = breedId;
         this.breedName = breedName;
         this.imageUrl = imageUrl;

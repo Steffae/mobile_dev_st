@@ -9,7 +9,7 @@ public class RemoveFromFavoritesUseCase {
         this.repository = repository;
     }
 
-    public boolean execute(String breedId) {
-        return repository.removeFromFavorites(breedId);
+    public boolean execute(String userId, String breedId) {
+        return repository.removeFromFavorites(userId, breedId);
     }
 }

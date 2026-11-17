@@ -50,4 +50,5 @@ dependencies {
 
     implementation("androidx.recyclerview:recyclerview:1.4.0")
     implementation("com.squareup.picasso:picasso:2.8")
+    implementation ("androidx.fragment:fragment:1.8.5")
 }

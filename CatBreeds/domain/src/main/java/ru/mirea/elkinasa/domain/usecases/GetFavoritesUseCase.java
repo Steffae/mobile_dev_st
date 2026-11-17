@@ -11,7 +11,7 @@ public class GetFavoritesUseCase {
         this.repository = repository;
     }
 
-    public List<CatBreed> execute() {
-        return repository.getAllFavorites();
+    public List<CatBreed> execute(String userId) {
+        return repository.getAllFavorites(userId);
     }
 }

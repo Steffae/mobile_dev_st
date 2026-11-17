@@ -5,6 +5,7 @@ import android.content.Context;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import ru.mirea.elkinasa.data.storage.room.AppDatabase;
 import ru.mirea.elkinasa.data.storage.sharedprefs.UserSharedPrefStorage;
 import ru.mirea.elkinasa.domain.models.User;
 import ru.mirea.elkinasa.domain.repository.AuthRepository;
@@ -13,8 +14,10 @@ public class AuthRepositoryImpl implements AuthRepository {
 
     private final FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
     private final UserSharedPrefStorage userPrefs;
+    private final Context context;
 
     public AuthRepositoryImpl(Context context) {
+        this.context = context.getApplicationContext();
         this.userPrefs = new UserSharedPrefStorage(context);
     }
 

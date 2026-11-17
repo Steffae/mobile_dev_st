@@ -13,34 +13,35 @@ import java.util.Set;
 
 import ru.mirea.elkinasa.domain.models.BreedItem;
 import ru.mirea.elkinasa.domain.models.CatBreed;
+import ru.mirea.elkinasa.domain.models.User;
+import ru.mirea.elkinasa.domain.repository.AuthRepository;
 import ru.mirea.elkinasa.domain.repository.CatRepository;
 import ru.mirea.elkinasa.domain.repository.FavoriteRepository;
-import ru.mirea.elkinasa.domain.usecases.AddToFavoritesUseCase;
-import ru.mirea.elkinasa.domain.usecases.RemoveFromFavoritesUseCase;
 
 public class BreedsListViewModel extends ViewModel {
     private static final String TAG = "BreedsListViewModel";
 
     private final CatRepository catRepository;
     private final FavoriteRepository favoriteRepository;
+    private final AuthRepository authRepository;
 
     private final MutableLiveData<List<CatBreed>> breedsLive = new MutableLiveData<>();
     private final MutableLiveData<List<String>> favoritesLive = new MutableLiveData<>();
     private final MediatorLiveData<List<BreedItem>> result = new MediatorLiveData<>();
+    private final MutableLiveData<Boolean> showLoginMessage = new MutableLiveData<>();
 
-    public BreedsListViewModel(CatRepository catRepository, FavoriteRepository favoriteRepository) {
+    public BreedsListViewModel(CatRepository catRepository, FavoriteRepository favoriteRepository, AuthRepository authRepository) {
         this.catRepository = catRepository;
         this.favoriteRepository = favoriteRepository;
-        Log.d(TAG, "BreedsListViewModel created");
+        this.authRepository = authRepository;
 
-        // Загружаем избранное локально (Room)
-        favoritesLive.setValue(favoriteRepository.getFavoriteIds());
+        // Получаем ID текущего пользователя
+        String userId = getCurrentUserId();
+        favoritesLive.setValue(favoriteRepository.getFavoriteIds(userId));
 
-        // Загружаем породы из сети (Retrofit)
         catRepository.getAllBreeds(new CatRepository.Callback() {
             @Override
             public void onSuccess(List<CatBreed> breeds) {
-                Log.d(TAG, "Успешно загружено пород: " + breeds.size());
                 breedsLive.postValue(breeds);
             }
 
@@ -54,8 +55,21 @@ public class BreedsListViewModel extends ViewModel {
         result.addSource(favoritesLive, ids -> rebuild());
     }
 
+    private String getCurrentUserId() {
+        User user = authRepository.getCurrentUser();
+        return user != null ? user.getId() : "guest";
+    }
+
     public LiveData<List<BreedItem>> getBreedsWithFavorite() {
         return result;
+    }
+
+    public LiveData<Boolean> getShowLoginMessage() {
+        return showLoginMessage;
+    }
+
+    public void onLoginMessageShown() {
+        showLoginMessage.setValue(false);
     }
 
     private void rebuild() {
@@ -72,17 +86,30 @@ public class BreedsListViewModel extends ViewModel {
     }
 
     public void toggleFavorite(CatBreed breed) {
+        User user = authRepository.getCurrentUser();
+        if (user == null) {
+            showLoginMessage.setValue(true);
+            return;
+        }
+
+        String userId = user.getId();
         List<String> ids = favoritesLive.getValue();
         if (ids == null) ids = new ArrayList<>();
         Set<String> favSet = new HashSet<>(ids);
 
         if (favSet.contains(breed.getId())) {
-            new RemoveFromFavoritesUseCase(favoriteRepository).execute(breed.getId());
+            favoriteRepository.removeFromFavorites(userId, breed.getId());
             favSet.remove(breed.getId());
         } else {
-            new AddToFavoritesUseCase(favoriteRepository).execute(breed.getId());
+            favoriteRepository.addToFavorites(userId, breed);
             favSet.add(breed.getId());
         }
         favoritesLive.setValue(new ArrayList<>(favSet));
+    }
+
+    public void refreshFavorites() {
+        User user = authRepository.getCurrentUser();
+        String userId = user != null ? user.getId() : "guest";
+        favoritesLive.setValue(favoriteRepository.getFavoriteIds(userId));
     }
 }

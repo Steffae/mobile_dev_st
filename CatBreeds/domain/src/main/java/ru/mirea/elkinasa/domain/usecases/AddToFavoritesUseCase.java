@@ -1,5 +1,6 @@
 package ru.mirea.elkinasa.domain.usecases;
 
+import ru.mirea.elkinasa.domain.models.CatBreed;
 import ru.mirea.elkinasa.domain.repository.FavoriteRepository;
 
 public class AddToFavoritesUseCase {
@@ -9,7 +10,7 @@ public class AddToFavoritesUseCase {
         this.repository = repository;
     }
 
-    public boolean execute(String breedId) {
-        return repository.addToFavorites(breedId);
+    public boolean execute(String userId, CatBreed breed) {
+        return repository.addToFavorites(userId, breed);
     }
 }

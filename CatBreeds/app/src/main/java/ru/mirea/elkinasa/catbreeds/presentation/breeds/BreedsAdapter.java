@@ -5,25 +5,26 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.squareup.picasso.Picasso;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import ru.mirea.elkinasa.catbreeds.R;
 import ru.mirea.elkinasa.domain.models.BreedItem;
 
 public class BreedsAdapter extends RecyclerView.Adapter<BreedsAdapter.BreedViewHolder> {
 
     private List<BreedItem> items = new ArrayList<>();
-    private OnFavoriteClickListener listener;
+    private OnFavoriteClickListener favListener;
+    private OnBreedClickListener breedListener;
 
     public interface OnFavoriteClickListener {
         void onFavoriteClick(BreedItem item);
+    }
+
+    public interface OnBreedClickListener {
+        void onBreedClick(BreedItem item);
     }
 
     public void setItems(List<BreedItem> items) {
@@ -31,8 +32,12 @@ public class BreedsAdapter extends RecyclerView.Adapter<BreedsAdapter.BreedViewH
         notifyDataSetChanged();
     }
 
-    public void setListener(OnFavoriteClickListener listener) {
-        this.listener = listener;
+    public void setFavListener(OnFavoriteClickListener listener) {
+        this.favListener = listener;
+    }
+
+    public void setBreedListener(OnBreedClickListener listener) {
+        this.breedListener = listener;
     }
 
     @NonNull
@@ -46,7 +51,7 @@ public class BreedsAdapter extends RecyclerView.Adapter<BreedsAdapter.BreedViewH
     @Override
     public void onBindViewHolder(@NonNull BreedViewHolder holder, int position) {
         BreedItem item = items.get(position);
-        holder.bind(item, listener);
+        holder.bind(item, favListener, breedListener);
     }
 
     @Override
@@ -57,7 +62,7 @@ public class BreedsAdapter extends RecyclerView.Adapter<BreedsAdapter.BreedViewH
     static class BreedViewHolder extends RecyclerView.ViewHolder {
         private final TextView textName;
         private final ImageView imageFav;
-        private final ImageView imageBreed; // Для картинки породы
+        private final ImageView imageBreed;
 
         public BreedViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -66,34 +71,30 @@ public class BreedsAdapter extends RecyclerView.Adapter<BreedsAdapter.BreedViewH
             imageBreed = itemView.findViewById(R.id.imageViewBreed);
         }
 
-        public void bind(BreedItem item, OnFavoriteClickListener listener) {
+        public void bind(BreedItem item, OnFavoriteClickListener favListener, OnBreedClickListener breedListener) {
             textName.setText(item.getBreed().getName());
 
-            // Безопасная загрузка картинки
             String imageUrl = item.getBreed().getImageUrl();
-
             if (imageUrl != null && !imageUrl.isEmpty()) {
-                Picasso.get()
-                        .load(imageUrl)
-                        .resize(400, 400)
-                        .centerCrop()
-                        .placeholder(android.R.drawable.ic_menu_gallery)
-                        .error(android.R.drawable.ic_menu_close_clear_cancel)
-                        .into(imageBreed);
+                Picasso.get().load(imageUrl).resize(400, 400).centerCrop().into(imageBreed);
             } else {
-                // Если картинки нет — ставим заглушку, чтобы Picasso не падал
                 imageBreed.setImageResource(android.R.drawable.ic_menu_gallery);
             }
 
-            // Закрашенная звездочка
             if (item.isFavorite()) {
                 imageFav.setImageResource(android.R.drawable.btn_star_big_on);
             } else {
                 imageFav.setImageResource(android.R.drawable.btn_star_big_off);
             }
 
+            // Клик по звездочке
             imageFav.setOnClickListener(v -> {
-                if (listener != null) listener.onFavoriteClick(item);
+                if (favListener != null) favListener.onFavoriteClick(item);
+            });
+
+            // Клик по всей карточке или названию (переход в детали)
+            itemView.setOnClickListener(v -> {
+                if (breedListener != null) breedListener.onBreedClick(item);
             });
         }
     }

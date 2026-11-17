@@ -1,12 +1,11 @@
 package ru.mirea.elkinasa.catbreeds.presentation.breeds;
 
 import android.content.Context;
-
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
-
 import ru.mirea.elkinasa.data.repository.RepositoryFactory;
+import ru.mirea.elkinasa.domain.repository.AuthRepository;
 import ru.mirea.elkinasa.domain.repository.CatRepository;
 import ru.mirea.elkinasa.domain.repository.FavoriteRepository;
 
@@ -24,6 +23,7 @@ public class BreedsListViewModelFactory implements ViewModelProvider.Factory {
     public <T extends ViewModel> T create(@NonNull Class<T> modelClass) {
         CatRepository catRepository = RepositoryFactory.createCatRepository();
         FavoriteRepository favoriteRepository = RepositoryFactory.createFavoriteRepository(context);
-        return (T) new BreedsListViewModel(catRepository, favoriteRepository);
+        AuthRepository authRepository = RepositoryFactory.createAuthRepository(context);
+        return (T) new BreedsListViewModel(catRepository, favoriteRepository, authRepository);
     }
 }

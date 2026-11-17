@@ -396,7 +396,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\123\\.gradle\\caches\\9.3.1\\transforms\\c4fb11756b730cf826ec36f3930be849\\workspace\\transformed\\fragment-1.5.4\\res\\values\\values.xml",
+                    "source": "C:\\Users\\123\\.gradle\\caches\\9.3.1\\transforms\\3427db5a027eb1ffe6355c21909b54ea\\workspace\\transformed\\fragment-1.8.5\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
                         "startColumns": "4,4,4,4,4",

@@ -13,12 +13,16 @@ public interface FavoriteDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insert(FavoriteEntity favorite);
 
-    @Query("DELETE FROM favorites WHERE breedId = :breedId")
-    void deleteById(String breedId);
+    @Query("DELETE FROM favorites WHERE id = :id")
+    void deleteById(String id); // Удаляем по составному ID
 
-    @Query("SELECT * FROM favorites ORDER BY dateAdded DESC")
-    List<FavoriteEntity> getAll();
+    // Получаем избранное только конкретного пользователя
+    @Query("SELECT * FROM favorites WHERE userId = :userId ORDER BY dateAdded DESC")
+    List<FavoriteEntity> getAllForUser(String userId);
 
-    @Query("SELECT EXISTS(SELECT 1 FROM favorites WHERE breedId = :breedId)")
-    boolean isFavorite(String breedId);
+    @Query("SELECT EXISTS(SELECT 1 FROM favorites WHERE id = :id)")
+    boolean isFavorite(String id);
+
+    @Query("DELETE FROM favorites WHERE userId = :userId")
+    void clearForUser(String userId); // Очищаем только для одного пользователя
 }

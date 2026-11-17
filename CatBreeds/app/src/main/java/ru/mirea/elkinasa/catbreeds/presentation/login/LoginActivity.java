@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
 import ru.mirea.elkinasa.catbreeds.R;
+import ru.mirea.elkinasa.catbreeds.presentation.MainActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -46,6 +47,9 @@ public class LoginActivity extends AppCompatActivity {
             if (user != null) {
                 Toast.makeText(this, "Привет, " + user.getEmail(), Toast.LENGTH_SHORT).show();
             }
+            android.content.Intent intent = new android.content.Intent(LoginActivity.this, MainActivity.class);
+            startActivity(intent);
+            finish();
         });
 
         signInBtn.setOnClickListener(v ->

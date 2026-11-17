@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.14.0] C:\Users\123\.gradle\caches\9.3.1\transforms\4c3442b4b752d2f10051b835829df5e2\workspace\transformed\material-1.14.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\123\.gradle\caches\9.3.1\transforms\87ceabb8b8ee992ffd76dbb740b5f45c\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [:data] D:\Desktop\mobile_dev_st\CatBreeds\data\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
@@ -50,7 +50,7 @@ MERGED from [androidx.core:core:1.18.0] C:\Users\123\.gradle\caches\9.3.1\transf
 MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\51a4d0dcd4c59819ee23a2dea1234292\workspace\transformed\navigationevent\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\123\.gradle\caches\9.3.1\transforms\d020d07cdacd06c6d975a7311ca33d26\workspace\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\123\.gradle\caches\9.3.1\transforms\c76b5747c5a0073aec7e2ff14d3f6e46\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\123\.gradle\caches\9.3.1\transforms\c4fb11756b730cf826ec36f3930be849\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.8.5] C:\Users\123\.gradle\caches\9.3.1\transforms\3427db5a027eb1ffe6355c21909b54ea\workspace\transformed\fragment-1.8.5\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity:1.13.0] C:\Users\123\.gradle\caches\9.3.1\transforms\cb8a812907605a03acb4c4813ab0bab0\workspace\transformed\activity-1.13.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\082098c672acdd6232a2a9579b2476af\workspace\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\123\.gradle\caches\9.3.1\transforms\187a9bd24e803eb0d61b222b457d06b7\workspace\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
@@ -83,8 +83,8 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\123\.gradle\cac
 	xmlns:android
 		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:5:5-31:19
-INJECTED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:5:5-31:19
+ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:5:5-24:19
+INJECTED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.14.0] C:\Users\123\.gradle\caches\9.3.1\transforms\4c3442b4b752d2f10051b835829df5e2\workspace\transformed\material-1.14.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.14.0] C:\Users\123\.gradle\caches\9.3.1\transforms\4c3442b4b752d2f10051b835829df5e2\workspace\transformed\material-1.14.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\123\.gradle\caches\9.3.1\transforms\87ceabb8b8ee992ffd76dbb740b5f45c\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -149,34 +149,28 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\123\.gradle\cac
 		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:13:9-47
 	android:dataExtractionRules
 		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:7:9-65
-activity#ru.mirea.elkinasa.catbreeds.presentation.breeds.BreedsListActivity
-ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:14:9-22:20
-	android:exported
-		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:16:13-36
-	android:name
-		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:15:13-67
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:17:13-21:29
-action#android.intent.action.MAIN
-ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:18:17-69
-	android:name
-		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:18:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:20:17-77
-	android:name
-		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:20:27-74
 activity#ru.mirea.elkinasa.catbreeds.presentation.MainActivity
-ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:25:9-26:40
+ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:14:9-19:20
 	android:exported
-		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:14:61-84
 	android:name
-		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:25:19-60
+		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:14:19-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:17:27-74
 activity#ru.mirea.elkinasa.catbreeds.presentation.login.LoginActivity
-ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:28:9-29:40
+ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:21:9-22:40
 	android:exported
-		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:28:19-67
+		ADDED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml:21:19-67
 uses-sdk
 INJECTED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Desktop\mobile_dev_st\CatBreeds\app\src\main\AndroidManifest.xml
@@ -273,8 +267,8 @@ MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\123\.gr
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\123\.gradle\caches\9.3.1\transforms\d020d07cdacd06c6d975a7311ca33d26\workspace\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\123\.gradle\caches\9.3.1\transforms\c76b5747c5a0073aec7e2ff14d3f6e46\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\123\.gradle\caches\9.3.1\transforms\c76b5747c5a0073aec7e2ff14d3f6e46\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\123\.gradle\caches\9.3.1\transforms\c4fb11756b730cf826ec36f3930be849\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\123\.gradle\caches\9.3.1\transforms\c4fb11756b730cf826ec36f3930be849\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.8.5] C:\Users\123\.gradle\caches\9.3.1\transforms\3427db5a027eb1ffe6355c21909b54ea\workspace\transformed\fragment-1.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.5] C:\Users\123\.gradle\caches\9.3.1\transforms\3427db5a027eb1ffe6355c21909b54ea\workspace\transformed\fragment-1.8.5\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity:1.13.0] C:\Users\123\.gradle\caches\9.3.1\transforms\cb8a812907605a03acb4c4813ab0bab0\workspace\transformed\activity-1.13.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.13.0] C:\Users\123\.gradle\caches\9.3.1\transforms\cb8a812907605a03acb4c4813ab0bab0\workspace\transformed\activity-1.13.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\123\.gradle\caches\9.3.1\transforms\082098c672acdd6232a2a9579b2476af\workspace\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44

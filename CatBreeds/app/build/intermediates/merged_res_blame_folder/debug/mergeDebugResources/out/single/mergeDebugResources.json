@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\layout_fragment_breed_details.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\layout\\fragment_breed_details.xml"
+    },
+    {
         "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\layout\\activity_login.xml"
     },
@@ -24,6 +28,38 @@
         "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\xml\\backup_rules.xml"
     },
     {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\layout_item_breed.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\layout\\item_breed.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\layout_fragment_favorites.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\layout\\fragment_favorites.xml"
+    },
+    {
         "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -32,12 +68,8 @@
         "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "ru.mirea.elkinasa.catbreeds.app-debug-49:/layout_fragment_breed_details.xml.flat",
+        "source": "ru.mirea.elkinasa.catbreeds.app-main-51:/layout/fragment_breed_details.xml"
     },
     {
         "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -48,32 +80,16 @@
         "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\layout_fragment_breeds.xml.flat",
+        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\layout\\fragment_breeds.xml"
     },
     {
         "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\layout_item_breed.xml.flat",
-        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\layout\\item_breed.xml"
-    },
-    {
-        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\layout_activity_breeds_list.xml.flat",
-        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\layout\\activity_breeds_list.xml"
-    },
-    {
         "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "ru.mirea.elkinasa.catbreeds.app-debug-49:/layout_item_breed.xml.flat",
-        "source": "ru.mirea.elkinasa.catbreeds.app-main-51:/layout/item_breed.xml"
-    },
-    {
-        "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-main-51:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\123\\.gradle\\daemon\\9.3.1\\ru.mirea.elkinasa.catbreeds.app-debug-49:\\mipmap-xxxhdpi_ic_launcher.webp.flat",

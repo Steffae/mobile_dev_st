@@ -17,22 +17,24 @@ public class FavoriteRepositoryImpl implements FavoriteRepository {
     }
 
     @Override
-    public boolean addToFavorites(String breedId) {
+    public boolean addToFavorites(String userId, CatBreed breed) {
+        String id = userId + "_" + breed.getId(); // Составной ключ
         FavoriteEntity entity = new FavoriteEntity(
-                breedId, breedId, "", System.currentTimeMillis());
+                id, userId, breed.getId(), breed.getName(), breed.getImageUrl(), System.currentTimeMillis());
         favoriteDao.insert(entity);
         return true;
     }
 
     @Override
-    public boolean removeFromFavorites(String breedId) {
-        favoriteDao.deleteById(breedId);
+    public boolean removeFromFavorites(String userId, String breedId) {
+        String id = userId + "_" + breedId;
+        favoriteDao.deleteById(id);
         return true;
     }
 
     @Override
-    public List<CatBreed> getAllFavorites() {
-        List<FavoriteEntity> entities = favoriteDao.getAll();
+    public List<CatBreed> getAllFavorites(String userId) {
+        List<FavoriteEntity> entities = favoriteDao.getAllForUser(userId);
         List<CatBreed> result = new ArrayList<>();
         for (FavoriteEntity e : entities) {
             result.add(new CatBreed(e.breedId, e.breedName, "", "", e.imageUrl));
@@ -41,15 +43,20 @@ public class FavoriteRepositoryImpl implements FavoriteRepository {
     }
 
     @Override
-    public boolean isFavorite(String breedId) {
-        return favoriteDao.isFavorite(breedId);
+    public boolean isFavorite(String userId, String breedId) {
+        String id = userId + "_" + breedId;
+        return favoriteDao.isFavorite(id);
     }
 
     @Override
-    public List<String> getFavoriteIds() {
-        List<FavoriteEntity> entities = favoriteDao.getAll();
+    public List<String> getFavoriteIds(String userId) {
+        List<FavoriteEntity> entities = favoriteDao.getAllForUser(userId);
         List<String> ids = new ArrayList<>();
         for (FavoriteEntity e : entities) ids.add(e.breedId);
         return ids;
+    }
+
+    @Override
+    public void clearAll() {
     }
 }
